@@ -1,0 +1,90 @@
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color:  #f53d3d;
+    color: #000000;
+}
+
+#cabecalho .nav .nav-link ,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+#sobre, #cardapio, #doacao {
+    background-color: #000000;
+    color: white;
+}
+
+.text-colored {
+    color: #950101;
+    font-family: 'Lora', serif;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #950101;
+    color: rgb(0, 0, 0);
+} 
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: solid 1px #950101;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#artigo {
+    background-color: #950101;
+}
+
+.bank-infos{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.bank-infos a {
+    text-decoration: none;
+}
+
+#doacao {
+    border-radius: 10px;
+}
+
+.logo-artigo {
+    max-width: 40px;
+}
+
+#sobre {
+    align-content: center;
+}
+
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+        width: 350px;
+    } 
+
+    #carousel-item {
+        margin-left: 0%;
+    }
+}
